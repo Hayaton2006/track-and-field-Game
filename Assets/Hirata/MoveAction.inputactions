@@ -3,7 +3,7 @@
     "name": "MoveAction",
     "maps": [
         {
-            "name": "Move",
+            "name": "PlayerInputAction",
             "id": "500d2127-104e-4ecc-8956-409c8f7b9b42",
             "actions": [
                 {
@@ -14,6 +14,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "UI",
+                    "type": "Button",
+                    "id": "85a717fd-6fb7-4d2c-84d4-e89018861428",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -71,6 +80,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "45388486-7d93-4e13-b91d-84c1ed674e09",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UI",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
